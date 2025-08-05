@@ -1,52 +1,48 @@
 Name: Prathyush Nimmagadda  
-PRN: 24070123064
+PRN: 24070123064  
 Batch: ENTC A3  
 
 # C++ Programs: Conditional Logic and Decision Making
 
-## Overview
+## Introduction
 
-This document describes a set of beginner-level C++ programs focused on decision-making using `if-else` statements and `switch-case` constructs. These programs teach the core principles of condition checking and logical branching, essential for interactive and responsive applications.
+This document presents a collection of fundamental C++ programs focusing on decision-making using `if-else` and `switch-case` statements. These exercises strengthen understanding of condition evaluation, logical flow, and interactive input-driven programming.
 
----
+## Program 1: Even or Odd Number Detector
 
-## Program 1: Even or Odd Number Checker
+### Objective
+To determine if an input number is even or odd using conditional checks.
 
-### Purpose
-To check whether the user-entered number is even or odd using conditional logic.
+### Key Concepts
+- Application of `if-else` statements
+- Use of the modulus operator `%` for divisibility check
 
-### Concepts Covered
-- Use of `if-else` statements
-- Use of modulo operator `%` to check divisibility by 2
+### Approach
+- Prompt user to input an integer
+- Utilize `if-else` to check for divisibility by 2
+- Print whether the number is even or odd
 
-### Logic Summary
-- Accept an integer input
-- Use `if-else` to check if it's divisible by 2
-- Display whether the number is even or odd
-
-### Output:
+### Sample Output:
 ```
 Enter the number: 4
 The given number is even.
 ```
 
----
+## Program 2: Vowel or Consonant Identifier
 
-## Program 2: Vowel or Consonant Checker
+### Objective
+To verify whether the entered character is a vowel or consonant.
 
-### Purpose
-To determine whether an entered character is a vowel or consonant.
+### Key Concepts
+- Use of logical OR (`||`) within `if` conditions
+- Case-sensitive character evaluation
 
-### Concepts Covered
-- Logical OR (`||`) conditions inside `if` statements
-- Case-sensitive character comparison
+### Approach
+- Take a character input from the user
+- Employ `if-else` to compare with vowel characters
+- Display the result based on comparison
 
-### Logic Summary
-- Take a character input
-- Use `if-else` to compare it with vowels
-- Print result accordingly
-
-### Output:
+### Sample Output:
 ```
 Enter a character: u
 u is a vowel.
@@ -54,22 +50,20 @@ Enter a character: j
 j is a consonant.
 ```
 
----
+## Program 3: Largest Among Three Numbers
 
-## Program 3: Largest of Three Numbers
+### Objective
+To identify the largest value among three integers provided by the user.
 
-### Purpose
-To find the largest number among three integers entered by the user.
+### Key Concepts
+- Implementation of nested `if-else` statements
+- Comparative operators for value checking
 
-### Concepts Covered
-- Nested `if-else` conditions
-- Use of comparison operators
+### Approach
+- Gather three integer inputs from the user
+- Evaluate using conditionals to find the greatest value
 
-### Logic Summary
-- Accept three integer inputs
-- Use conditional logic to compare and find the largest
-
-### Output:
+### Sample Output:
 ```
 Enter first number: 4
 Enter second number: 4
@@ -77,24 +71,22 @@ Enter third number: 5
 The largest number is: 5
 ```
 
----
+## Program 4: City Name Display using Switch-Case
 
-## Program 4: City Selector using Switch
+### Objective
+To display a city’s name based on a numeric selection using the `switch` construct.
 
-### Purpose
-To display the name of a city based on the number selected by the user using a `switch` statement.
-
-### Concepts Covered
-- Switch-case control flow
-- Menu-based interaction
+### Key Concepts
+- Use of `switch-case` control structure
+- Menu-style user interaction
 - Use of `break` and `default` cases
 
-### Logic Summary
-- Show a list of cities
-- Take an integer input
-- Match using `switch` and display the corresponding city
+### Approach
+- Present a numbered list of cities to the user
+- Request choice as an integer input
+- Use `switch` to map and display the selected city
 
-### Output:
+### Sample Output:
 ```
 1.Thimphu
 2.Amsterdam
@@ -110,31 +102,28 @@ Enter your choice: 5
 You selected Kuwait.
 ```
 
----
+## Program 5: Simple Arithmetic Calculator
 
-## Program 5: Basic Arithmetic Calculator
+### Objective
+To execute an arithmetic operation based on the user’s chosen operator.
 
-### Purpose
-To perform arithmetic operations based on the operator selected by the user.
+### Key Concepts
+- Operator-based `switch-case` handling
+- Division by zero validation
+- Floating-point arithmetic operations
 
-### Concepts Covered
-- Switch-case logic for operator selection
-- Handling division by zero
-- Floating-point arithmetic
+### Approach
+- Accept two floating-point numbers and an operator from the user
+- Use `switch` to perform the chosen operation
+- Output the result or show an error for invalid cases
 
-### Logic Summary
-- Accept two float numbers and an operator
-- Use `switch` to perform the appropriate operation
-- Display the result or handle errors
-
-### Output:
+### Sample Output:
 ```
 Enter first number: 4
 Enter an operator (+, -, *, /): +
 Enter second number: 5
 Result: 9
 ```
-
 ---
 
 ## Conclusion
